@@ -1,0 +1,13 @@
+{
+    "name": "saikaze/helper",
+    "description": "Digitoyz Helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saikaze",
+            "email": "saikaze@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
