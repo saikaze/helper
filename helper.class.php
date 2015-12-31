@@ -25,7 +25,7 @@ class helper{
             $prefix .= $skuParts[$i] . "-";
         }
         $prefix = substr($prefix, 0, strlen($prefix) - 1 );
-        if ($returnArray)
+        if ($returnArray == false)
             return $prefix;
         else
             return array($prefix, $category, $design);
