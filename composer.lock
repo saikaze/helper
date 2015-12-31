@@ -1,0 +1,127 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "def30f6258ed3a0b3997c37a35c399e4",
+    "content-hash": "e61e08b7700ea2411f1932b14faedc3a",
+    "packages": [
+        {
+            "name": "joshcam/mysqli-database-class",
+            "version": "v2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joshcam/PHP-MySQLi-Database-Class.git",
+                "reference": "5bf7f095aad3c4e11fc5e879a500c69977b2eecc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joshcam/PHP-MySQLi-Database-Class/zipball/5bf7f095aad3c4e11fc5e879a500c69977b2eecc",
+                "reference": "5bf7f095aad3c4e11fc5e879a500c69977b2eecc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "MysqliDb.php",
+                    "dbObject.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Campbell",
+                    "email": "josh.lee.campbell@gmail.com",
+                    "homepage": "https://github.com/joshcam",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexander V. Butenko",
+                    "email": "a.butenka@gmail.com",
+                    "homepage": "http://smarttechdo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP MySQL Wrapper and object mapper which utilizes MySQLi and prepared statements",
+            "time": "2015-11-08 22:09:16"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v5.2.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "e774bc9152de85547336e22b8926189e582ece95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/e774bc9152de85547336e22b8926189e582ece95",
+                "reference": "e774bc9152de85547336e22b8926189e582ece95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "*",
+                "phpunit/phpunit": "4.7.*"
+            },
+            "suggest": {
+                "league/oauth2-client": "Needed for XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Gmail XOAUTH2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class.phpmailer.php",
+                    "class.phpmaileroauth.php",
+                    "class.phpmaileroauthgoogle.php",
+                    "class.smtp.php",
+                    "class.pop3.php",
+                    "extras/EasyPeasyICS.php",
+                    "extras/ntlm_sasl_client.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2015-11-01 10:15:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
