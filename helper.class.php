@@ -9,6 +9,12 @@
 
 class helper{
 
+    public function test()
+    {
+        echo "hello world";
+        return true;
+    }
+
     /**
      *
      * @param string $sku
